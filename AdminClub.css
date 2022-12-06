@@ -1,0 +1,33 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    }
+
+    table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    }
+    th, td {
+    background-color: #96D4D4;
+    color: black;
+    padding: 15px;
+    }
+    .container1{
+position: relative;
+text-align: center;
+color:#BEBEBE;
+}
+.container1 h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.container1 img{
+  height: 700px;
+  width: 100%;
+}
